@@ -1,0 +1,33 @@
+body {
+    background-image: url(./1_5lyavS59mazOFnb55Z6znQ.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1,
+h5,
+p {
+    color: white;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+h5 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+.get_started {
+    width: 300px;
+    height: 60px;
+    font-size: 25px;
+}

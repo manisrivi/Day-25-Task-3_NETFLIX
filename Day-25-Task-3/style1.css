@@ -1,0 +1,37 @@
+body {
+    background-image: url(./1_5lyavS59mazOFnb55Z6znQ.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1,
+h5 {
+    color: white;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+input {
+    width: 350px;
+    height: 37px;
+    border-radius: 3px;
+}
+
+.btn1 {
+    width: 150px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.zoom {
+    transition: transform .2s;
+    /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
